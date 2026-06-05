@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Q1 {
-    public static double countAverage (int a,int b,int c){
+    public static double countAverage (double a,double b,double c){
         double sum = a + b + c;
         double average = sum/3;
 
