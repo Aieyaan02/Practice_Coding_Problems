@@ -15,6 +15,8 @@ public class Q2 {
         System.out.println("Enter a number: ");
         int n = scan.nextInt();
         SumOdd(n);
+        System.out.println("Enter another number: ");
+        int m = scan.nextInt();
         scan.close();
     }
     
