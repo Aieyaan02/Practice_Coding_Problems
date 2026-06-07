@@ -7,6 +7,7 @@ public class Q2 {
                 a = a + i;
             } 
         }  
+        System.out.println("The sum of odd numbers from 1 to " + n + " is: " + a);
        
         
     }
