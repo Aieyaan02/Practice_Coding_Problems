@@ -4,7 +4,8 @@ public class Q2 {
         int a = 0;
         for(int i = 1; i <= n; i++){
             if (i % 2 != 0){
-                a = a + i;
+                a = a + i; // I need to update the value of a, 
+                             // so I need to assign the new value to a.
             } 
         }  
         System.out.println("The sum of odd numbers from 1 to " + n + " is: " + a);
