@@ -1,5 +1,5 @@
 public class Q4 {
-    public static Double circumference (double r){
+    public static Double circumference (Double radius){
         
         
     }
