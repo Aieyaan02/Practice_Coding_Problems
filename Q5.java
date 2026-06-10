@@ -7,11 +7,10 @@ public class Q5 {
         } else {
             System.out.println("You are not elegible to vote right now");
         }
-
     }
     public static void main (String[]args){
         Scanner scan =  new Scanner(System.in);
-        System.out.println("Hello Please enter your age : ");
+        System.out.println("Hello!! Please enter your age : ");
         int age = scan.nextInt();
         elegible(age);
         scan.close();
