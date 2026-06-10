@@ -8,9 +8,7 @@ public class Q2 {
                              // so I need to assign the new value to a.
             } 
         }  
-        System.out.println("The sum of odd numbers from 1 to " + n + " is: " + a);
-       
-        
+        System.out.println("The sum of odd numbers from 1 to " + n + " is: " + a);     
     }
     public static void main (String[]agrs){
         Scanner scan = new Scanner (System.in);
