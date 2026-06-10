@@ -7,7 +7,7 @@ public class Q4 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the radius of the circle: ");
         double radius = scan.nextDouble();
-        System.out.println("The circumference of the circle is: " + circumference(r));
+        System.out.println("The circumference of the circle is: " + circumference(radius));
         scan.close();
     }
     
