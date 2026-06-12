@@ -1,6 +1,9 @@
 public class Q6 {
-    public static void main (String[]args){
+    public static void infiniteLoop (int a){
         
+    }
+    public static void main (String[]args){
+
     }
     
 }
