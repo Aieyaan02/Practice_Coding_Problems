@@ -1,11 +1,7 @@
 import java.util.Scanner;
 public class Q6 {
     public static void infiniteLoop (int a){
-        do {
-            for(int i = 1; i <= n;i++){
-                
-            }
-        }
+        
         
 
     }
