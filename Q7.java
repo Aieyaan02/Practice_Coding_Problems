@@ -5,13 +5,8 @@ public class Q7 {
         int negative = 0;
         int zero = 0;
 
-        if(positve>0){
-            System.out.println("Positive");
-        } else (negative<0) {
-            System.out.println("Negative");
-
-
-        }
+        Scanner scan = new Scanner(System.in);
+        
 
     }
     
