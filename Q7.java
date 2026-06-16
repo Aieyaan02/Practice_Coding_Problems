@@ -6,7 +6,7 @@ public class Q7 {
         int zero = 0;
         
     Scanner scan = new Scanner(System.in);
-    //System.out.println("Enter the number of integers you want to input: ");
+    
     }
 
 }
