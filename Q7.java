@@ -17,7 +17,7 @@ public class Q7 {
                 zero++;
             }
             System.out.println("Do you want to continue? (1 for yes, 0 for no): ");
-            num = scan.nextInt();
+            
             
         }
         System.out.println("Number of positive numbers: " + positive);
