@@ -4,6 +4,7 @@ public class Q7 {
         int positive = 0;
         int negative = 0;
         int zero = 0;
+        System.out.println("Enter 1 to continue or 0 to stop: ");
         Scanner scan = new Scanner(System.in);
         int input = scan.nextInt();
         while(input == 1){
@@ -16,7 +17,9 @@ public class Q7 {
             } else {
                 zero++;
             }
-            scan.close();     
+            System.out.println("Enter 1 to continue or 0 to stop: ");
+            input = scan.nextInt();
+                 
             
         }
         System.out.println("Number of positive numbers: " + positive);
