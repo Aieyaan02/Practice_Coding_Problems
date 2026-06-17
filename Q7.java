@@ -16,7 +16,7 @@ public class Q7 {
             } else {
                 zero++;
             }
-                 
+            scan.close();     
         }
         System.out.println("Number of positive numbers: " + positive);
         System.out.println("Number of negative numbers: " + negative);
