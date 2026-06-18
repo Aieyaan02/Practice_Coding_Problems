@@ -19,8 +19,7 @@ public class Q7 {
             }
             System.out.println("Enter 1 to continue or 0 to stop: ");
             input = scan.nextInt();
-                 
-            
+            scan.close();      
         }
         System.out.println("Number of positive numbers: " + positive);
         System.out.println("Number of negative numbers: " + negative);
