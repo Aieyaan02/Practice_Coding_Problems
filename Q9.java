@@ -6,15 +6,10 @@ public class Q9 {
             if (a % i == 0 && b % i == 0){
                 GCD = i;
             }
-
-
         }
-
         return commonDivisor(a, b);
-
     }
     public static void main(String[] args) {
         
     }
-    
 }
