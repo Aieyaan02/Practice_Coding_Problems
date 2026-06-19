@@ -10,5 +10,8 @@ public class Q9 {
         return commonDivisor(a, b);
 
     }
+    public static void main(String[] args) {
+        
+    }
     
 }
