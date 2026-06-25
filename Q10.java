@@ -5,6 +5,7 @@ public class Q10 {
 
         }
     static void pattern1(int n){
+
         
 
     }
