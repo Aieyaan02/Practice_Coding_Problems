@@ -4,7 +4,7 @@ public class Q10 {
         pattern1(5);
 
         }
-    public static void pattern1(int n){
+    static void pattern1(int n){
 
     }
 }
