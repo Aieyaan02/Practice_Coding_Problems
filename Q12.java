@@ -11,7 +11,6 @@ public class Q12 {
                     System.out.print(" ");
                 }
                 System.out.println();
-
             }
         }
     }
