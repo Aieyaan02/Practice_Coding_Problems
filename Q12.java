@@ -8,7 +8,7 @@ public class Q12 {
                 if(row == 1 || row == n-1|| col == 1 || col==m-1){
                     System.out.print("* ");
                 } else {
-                    System.out.print("  ");
+                    System.out.print(" ");
                 }
                 System.out.println();
             }
