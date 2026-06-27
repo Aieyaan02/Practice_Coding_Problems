@@ -1,6 +1,5 @@
 public class Q12 {
     public static void main(String[]args){
-        
         pattern3(5, 4);
     }
     static void pattern3(int n,int m){
