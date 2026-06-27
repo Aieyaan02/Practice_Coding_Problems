@@ -6,7 +6,7 @@ public class Q12 {
         for(int row = 1; row <= n;row++){ 
             for(int col = 1;col <= m;col++){
                 if(row == 1 || row == n-1|| col == 1 || col==m-1){
-                    System.out.print("* ");
+                    System.out.print(" * ");
                 } else {
                     System.out.print("  ");
                 }
