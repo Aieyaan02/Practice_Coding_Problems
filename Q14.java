@@ -7,7 +7,7 @@ public class Q14 {
             for(int col = 1; col < row; col++){
                 System.out.print(" ");
             }
-            for(int star = n; star <= row;star++){
+            for(int i = n; i <= row;i++){
                 System.out.print(" * ");
             }
         }
