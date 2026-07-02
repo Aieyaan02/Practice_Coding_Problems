@@ -3,7 +3,7 @@ public class Q14 {
         pattern5(5);
     }
     static void pattern5(int n){
-        for(int row = n-1; row >= 1; row--){
+        for(int row = n; row >= 1; row--){
             for(int col = 1; col < row; col++){
                 System.out.print("  ");
             }
