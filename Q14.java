@@ -1,6 +1,6 @@
 public class Q14 {
     public static void main (String[]args){
-        pattern5(3);
+        pattern5(5);
     }
     static void pattern5(int n){
         for(int row = n-1; row >= 1; row--){
