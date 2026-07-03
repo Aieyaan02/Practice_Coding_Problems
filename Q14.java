@@ -10,6 +10,7 @@ public class Q14 {
             for(int s = n; s >= row;s++){
                 System.out.print(" * ");
             }
+            
         }
         System.out.println();
     } 
