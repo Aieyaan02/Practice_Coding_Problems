@@ -8,7 +8,7 @@ public class Q14 {
                 System.out.print("  ");
             }
             for(int s = n; s >= row;s++){
-                System.out.print(" * ");
+                System.out.print(" *");
             }
         }
         System.out.println();
