@@ -4,7 +4,7 @@ public class Q14 {
     }
     static void pattern5(int n){
         for(int row = n; row >= 1; row++){
-            for(int col = 1; col < row; col++){
+            for(int col = 1; col < row; col--){
                 System.out.print("  ");
             }
             for(int s = n; s >= row;s++){
