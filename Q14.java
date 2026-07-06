@@ -4,11 +4,11 @@ public class Q14 {
     }
     static void pattern5(int n){
         for(int row = 1; row >= n; row++){
-            for(int col = row; col <= row; col++){
-                System.out.print(" * ");
-            }
-            for(int s = row; s >= row;s++){
+            for(int col = 1; col >= n; col++){
                 System.out.print("  ");
+            }
+            for(int s = n; s >= row-1;s++){
+                System.out.print(" * ");
             }
         }
         System.out.println();
