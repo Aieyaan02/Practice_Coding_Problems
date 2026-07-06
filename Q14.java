@@ -3,11 +3,11 @@ public class Q14 {
         pattern5(5);
     }
     static void pattern5(int n){
-        for(int row = 1; row >= n; row++){
+        for(int row = 1; row >= n-1; row++){
             for(int col = 1; col >= n; col++){
                 System.out.print("  ");
             }
-            for(int s = n; s >= n-1;s--){
+            for(int s = n; s >= n ;s--){
                 System.out.print(" * ");
             }
         }
