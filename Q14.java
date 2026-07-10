@@ -3,7 +3,6 @@ public class Q14 {
         pattern5(5); 
 
 
-        
     }
     static void pattern5(int n){
         for(int row = 1; row >= n;row++){
