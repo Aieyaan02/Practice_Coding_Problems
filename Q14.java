@@ -11,6 +11,7 @@ public class Q14 {
                 System.out.print(" * ");
             }          
         }
+        
         System.out.println();
     } 
 }
