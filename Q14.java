@@ -9,8 +9,7 @@ public class Q14 {
             }
             for(int str = 1;str >= n;str--){
                 System.out.print(" * ");
-            }   
-                   
+            }                      
         }             
         System.out.println();
     } 
