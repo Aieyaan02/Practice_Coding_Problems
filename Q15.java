@@ -3,6 +3,6 @@ public class Q15 {
 
     }
     static void countback(){
-        
+        int a = 0;
     }
 }
