@@ -7,7 +7,6 @@ public class Q21 {
             for(int col = row;col <=n;col++){
                 System.out.print(col);
             }
-            System.out.println();
         }
     }
 }
