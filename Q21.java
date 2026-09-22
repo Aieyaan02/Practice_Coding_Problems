@@ -8,7 +8,6 @@ public class Q21 {
                 System.out.print(col);
             }
             System.out.println();
-            System.out.println();
         }
     }
 }
