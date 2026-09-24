@@ -6,7 +6,11 @@ public class Q21 {
         for(int row = n;row >=1;row--){
             for(int col = row;col <=n;col++){
                 System.out.print(col);
+                for (int j = row;j<=n;j++){
+                    System.out.println(row);
+                }
             }
+            System.out.println();
             System.out.println();
         }
     }
