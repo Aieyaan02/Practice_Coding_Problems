@@ -10,8 +10,7 @@ public class Q21 {
                     System.out.println(row);
                 }
             }
-            System.out.println();
-            System.out.println();
+            System.out.println(); 
         }
     }
 }
