@@ -11,8 +11,6 @@ public class Q21 {
                 }
             }
             System.out.println();
-            System.out.println();
-            
         }
     }
 }
