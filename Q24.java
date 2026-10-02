@@ -5,8 +5,12 @@ public class Q24 {
         System.out.println(answer);
         
     }
-    public static int findIndex(int []nums,int target){
-
+    public static int findIndex(int[]nums,int target){
+        for(int i = 0;i < nums.length;i++){
+            if(nums[i]== 2){
+                
+            }
+        }
         return 1;
     
     }
