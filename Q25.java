@@ -12,6 +12,6 @@ public class Q25 {
             }
         }
         return counter;
-        System.out.println();
+        
     }
 }
