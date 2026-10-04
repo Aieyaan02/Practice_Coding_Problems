@@ -1,8 +1,16 @@
 public class Q24 {
     public static void main(String[] args) {
         int[]nums = {4,7,2,5};
-        int answer = findIndex(nums, 9);
+        Boolean answer = containsNumber(nums, 9);
         System.out.println(answer); 
+    }
+    public static boolean containsNumber(int[]nums,int target){
+        for(int i = 0; i < nums.length;i++){
+            if(target == nums[i]){
+                return true;
+            }
+        }
+        return false;
     }
     public static int findIndex(int[]nums,int target){
         for(int i = 0;i < nums.length;i++){
