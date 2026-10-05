@@ -6,16 +6,18 @@ public class Q34 {
         System.out.println(wordOccurance(words, "apple"));
         
     }
-    public static HashMap<String,Integer> wordOccurance(String[] word,String target){
+    public static int wordOccurance(String[] word,String target){
         HashMap<String, Integer> name = new HashMap<>();
 
         for (int i = 0;i < word.length; i++){
-            
-
+            String names = word[i];
+            int oldCount = name.getOrDefault(names, 0);
+            int newCount = (oldCount + 1);
+            name.put (names, newCount);
 
         }
 
-        return ;
+        return name.getOrDefault(target,0);
     }
     
 }
