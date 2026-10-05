@@ -10,10 +10,6 @@ public class Q29 {
         for(int i = 0; i < num.length;i++){
            number.add(num[i]);
         }
-        number.size();
-
         return number.size();
     }
-
-    
 }
