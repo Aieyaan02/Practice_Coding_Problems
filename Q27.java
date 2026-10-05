@@ -2,7 +2,7 @@ import java.util.HashSet;
 
 public class Q27 {
     public static void main (String[]agrs){
-        int[]nums = {4, 7, 3, 9};
+        int[]nums = {4, 7, 4, 9};
         System.out.println(Duplicate(nums));
     }
     public static boolean Duplicate(int[] num) {
