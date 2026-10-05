@@ -12,6 +12,6 @@ public class Q36 {
         for(int i = 0; i < nums.length;i++){
 
         }
-        //return new int[]{firstIndex,secondIndex};
+        return new int[]{firstIndex,secondIndex};
     }
 }
