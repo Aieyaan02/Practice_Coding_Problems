@@ -13,5 +13,6 @@ public class Q36 {
 
         }
         return new int[]{firstIndex,secondIndex};
+        System.out.println();
     }
 }
