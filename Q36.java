@@ -7,12 +7,17 @@ public class Q36 {
         System.out.println(Arrays.toString(twoSum(nums,11)));
     }
     public static int[] twoSum (int[]nums, int target){
-
-        HashMap<Integer,Integer> positions = new HashMap<>();
-        for(int i = 0; i < nums.length;i++){
-
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[] { map.get(complement), i };
+            }
+            map.put(nums[i], i);
         }
-        return new int[]{firstIndex,secondIndex};
+        return new int[] {}; // Return an empty array if no solution is found
+        System.out.println();
+    }
         
     }
-}
+
