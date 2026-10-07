@@ -18,6 +18,7 @@ public class Q36 {
         return new int[] {}; // Return an empty array if no solution is found
         System.out.println();
         System.out.println();
+        System.out.println();
     }
         
     }
