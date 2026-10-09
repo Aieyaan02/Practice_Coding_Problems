@@ -10,6 +10,7 @@ public class Q36 {
         System.out.println();
         System.out.println();
         System.out.println();
+        System.out.println();
         
     }
     public static int[] twoSum (int[]nums, int target){
