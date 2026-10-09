@@ -7,18 +7,7 @@ public class Q36 {
         System.out.println(Arrays.toString(twoSum(nums,11)));
         System.out.println();
         System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println();x
     }
     public static int[] twoSum (int[]nums, int target){
         HashMap<Integer, Integer> map = new HashMap<>();
